@@ -118,7 +118,7 @@ cd TravelMemory
 Create `backend/.env`:
 
 ```env
-MONGO_URI='mongodb+srv://travelmemory:system123@cluster0.hfeojne.mongodb.net/travelmemory?retryWrites=true&w=majority'
+MONGO_URI='mongodb+srv://travelmemory:sys**m***@cluster0.hfeojne.mongodb.net/travelmemory?retryWrites=true&w=majority'
 PORT=3001
 ```
 
@@ -200,7 +200,7 @@ Both `app1` and `app2` instances registered as targets.
 | Test URL | http://travelmemory-alb-1556311436.us-east-1.elb.amazonaws.com |
 | Status | Working — TravelMemory UI loads and serves data from MongoDB Atlas via either backend node |
 
-## 8. Remaining / Optional Steps
+## 8. Remaining will do later / Optional Steps for this excercise
 
 - [ ] **Lock down EC2 security group**: restrict inbound on ports 3000/3001 to the ALB's security group only, instead of `0.0.0.0/0`.
 - [ ] **Custom domain (optional)**: create a CNAME record in Route 53 (or external DNS provider) pointing to the ALB DNS name. Do not use an A record, since ALB IPs are not static.
