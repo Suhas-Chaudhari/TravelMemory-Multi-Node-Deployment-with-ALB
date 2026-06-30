@@ -118,7 +118,7 @@ cd TravelMemory
 Create `backend/.env`:
 
 ```env
-MONGO_URI='mongodb+srv://travelmemory:sys**m***@cluster0.hfeojne.mongodb.net/travelmemory?retryWrites=true&w=majority'
+MONGO_URI='mongodb+srv://username:password@*******.hfeojne.mongodb.net/********?retryWrites=true&w=majority'
 PORT=3001
 ```
 
